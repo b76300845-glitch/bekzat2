@@ -1,94 +1,172 @@
 <!DOCTYPE html>
 <html lang="kk">
 <head>
-<meta charset="UTF-8">
-<title>Тағамдар Рецепті</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Менің сүйікті қалам - Атырау</title>
 
-<style>
-.card {
-    background: #fff9f4;
-    padding: 15px;
-    border-radius: 10px;
-    font-size: 14px;
-    color: #7c6c63;
-    border-left: 5px solid #e67e22;
-    margin-bottom: 20px;
-}
+    <style>
+        /* Жалпы стильдер */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+        }
 
-.steps b {
-    color: #d35400;
-    display: block;
-    margin-bottom: 5px;
-}
-</style>
+        /* Шапка (Header) */
+        header {
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+            url('https://images.unsplash.com/photo-1580655653885-65763b2597d0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
 
+        header h1 {
+            font-size: 3.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+        }
+
+        /* Галерея */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
 </head>
 <body>
 
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <title>Атырау – Мұнайлы астана</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 300px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Атырау – Мұнайлы астана</h1>
+    <p>Қазақстанның батыс маржанына қош келдіңіз!</p>
+</header>
+
 <div class="container">
-<h1>🍽 Тағамдар Рецепті</h1>
 
-<div class="card">
-<img src="https://tengrinews.kz/userdata/news/2022/news_460242/thumb_b/photo_38702.jpeg" alt="бешбармақ">
-<div class="content">
-<h3>Бешбармақ</h3>
-<p>Қазақтың дәстүрлі бас тағамы.</p>
-<div class="steps">
-<b>Рецепт:</b>
-Етті (қой немесе сиыр) суға салып, 2-3 сағат баяу отта қайнатыңыз. Сорпаға кеспе пісіріңіз. Бетіне тұздық (пияз, бұрыш) қосып, етпен бірге ұсыныңыз.
-</div>
-</div>
-</div>
+    <section id="about">
+        <h2>Қала туралы</h2>
+        <p>
+            Атырау – Қазақстанның батысында, Жайық өзенінің Каспий теңізіне құяр жерінде орналасқан әсем қала.
+        </p>
+        <p>
+            Бүгінде Атырау – еліміздің ірі өндірістік және мәдени орталығы, мұнай мен газ өндірісінің қайнаған жері.
+        </p>
+    </section>
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?q=80&w=600" alt="паста">
-<div class="content">
-<h3>Итальян пастасы</h3>
-<p>Жеңіл әрі дәмді түскі ас.</p>
-<div class="steps">
-<b>Рецепт:</b>
-Спагеттиді тұзды суда пісіріңіз. Бөлек табада сарымсақты зәйтүн майына қуырып, томат соусын, шөптерді (базилик) қосыңыз. Дайын пастаны соуспен араластырыңыз.
-</div>
-</div>
-</div>
+    <section id="sights">
+        <h2>Көрікті жерлері</h2>
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=600" alt="цезарь салаты">
-<div class="content">
-<h3>Цезарь салаты</h3>
-<p>Классикалық жеңіл салат.</p>
-<div class="steps">
-<b>Рецепт:</b>
-Тауық етін пісіріп тураңыз. Айсберг жапырақтарын, кептірілген нан (сухари), пармезан сырын араластырыңыз. Арнайы цезарь соусын құйып, үстіне тауық етін қосыңыз.
-</div>
-</div>
-</div>
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1590019213193-41f2747970d4" alt="Жайық өзені">
+            <img src="https://images.unsplash.com/photo-1552053831-71594a27632d" alt="Атырау мешіті">
+            <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff" alt="Атырау көпірі">
+        </div>
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?q=80&w=600" alt="панкейк">
-<div class="content">
-<h3>Панкейк</h3>
-<p>Американдық құймақтар.</p>
-<div class="steps">
-<b>Рецепт:</b>
-Жұмыртқаны қантпен араластырып, сүт, ұн, қопсытқыш және аздап өсімдік майын қосыңыз. Қамырды табада екі бетін қызартып пісіріңіз. Бал немесе тосаппен ұсыныңыз.
-</div>
-</div>
-</div>
+        <ul>
+            <li><strong>Жайық өзені:</strong> Қаланы екіге бөліп тұрған үлкен өзен.</li>
+            <li><strong>Еуропа-Азия көпірі:</strong> Бір континенттен екіншісіне жаяу өтуге болатын ерекше орын.</li>
+            <li><strong>Иманғали мешіті:</strong> Қаланың сәулеттік інжу-маржаны.</li>
+        </ul>
+    </section>
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1543353071-4c4a5c6f3d82?q=80&w=600" alt="үй лимонады">
-<div class="content">
-<h3>Үй лимонады</h3>
-<p>Жазға арналған сергітетін сусын.</p>
-<div class="steps">
-<b>Рецепт:</b>
-Лимон шырынын сығып, сумен араластырыңыз (1 литр суға 2 лимон). Қант немесе бал қосыңыз, мұз және жалбыз жапырақтарын қосып беріңіз.
-</div>
-</div>
-</div>
+    <section id="fact">
+        <h2>Қызықты дерек</h2>
+        <blockquote>
+            Атырау – әлемдегі екі құрлықта қатар орналасқан санаулы қалалардың бірі.
+        </blockquote>
+    </section>
 
 </div>
+
+<footer>
+    <p>© 2026 Менің сүйікті қалам. Барлық құқықтар қорғалған.</p>
+</footer>
 
 </body>
 </html>
+    
